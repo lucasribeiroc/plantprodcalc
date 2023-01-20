@@ -11,7 +11,7 @@ function calcppmvega() {
 
   const resultadosulfmag = (ppm * 22) / 100;
   document.querySelector(".resultadosulfmag").innerHTML =
-    "Nitrato de Cálcio: " + Math.round(resultadosulfmag) + " ppm";
+    "Sulfato de Magnésio: " + Math.round(resultadosulfmag) + " ppm";
 }
 
 function calcppmflora() {
@@ -27,7 +27,7 @@ function calcppmflora() {
 
   const resultadosulfmag = (ppm * 18.5) / 100;
   document.querySelector(".resultadosulfmag").innerHTML =
-    "Nitrato de Cálcio: " + Math.round(resultadosulfmag) + " ppm";
+    "Sulfato de Magnésio: " + Math.round(resultadosulfmag) + " ppm";
 
   const resultadomkp = (ppm * 23) / 100;
   document.querySelector(".resultadomkp").innerHTML =
